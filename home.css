@@ -1,0 +1,470 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: 'Roboto Serif', serif;
+    /* border: 2px solid green; */
+}
+
+nav .menu-btn i{
+    display: none;
+    left: -100%;
+}
+body
+{
+    padding: 0px 50px;
+}
+
+
+        /* head section */
+.head_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    height: 80px;
+   
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.link{
+    display: flex;
+    padding: 20px;    
+}
+
+.link li{
+    list-style: none;
+}
+.link a{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 20px;    
+    transition: all .3s;
+}
+
+
+
+nav a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/* banner section */
+
+.main1_image{
+    width: auto;
+    height: 80vh;
+    background-image: url("first_lmage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* margin: 20px 0px; */
+    /* position: relative; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    animation: changeImage 15s linear infinite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.text {
+    letter-spacing: 10px;
+    line-height: 1.8;
+    color: black;
+    
+    
+}
+
+.text p{
+    padding: 0px 40px;
+    font-weight: bold;
+}
+
+/* section one */
+    .m_word{
+    /* display: flex; */
+    text-align: center;
+    /* border: 2px solid teal; */
+    margin: 10% auto;
+    
+}
+
+.m_word h3{
+    font-size: 2rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+/* section two */
+
+    .f_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .co_founders{
+        /* border: 3px solid green; */
+        height: 600px;
+        width: 500px;
+        
+    }
+
+    .co_founders img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+
+
+    .co_founders_description{
+        /* border: 3px solid red; */
+        height: 600px;
+        width: 500px;
+        margin: 0px 100px;
+        
+    }
+
+    .co_founders_description h1 {
+        padding: 50px;
+        letter-spacing: 1.5;
+        
+    }
+
+    /* second sction  */
+
+    .s_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 0px;
+    }
+
+
+    .award{
+        height: 600px;
+        width: 800px;
+        
+    }
+
+    .award img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid black;   
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+
+
+    .award_description{
+        
+        height: 600px;
+        width: 500px ;
+        background-color: red;
+        padding: 50px;
+
+        
+    }
+
+    .award_description h1 {
+        padding: 50px;
+        letter-spacing: 1.5;
+        
+    }
+  
+
+    /* third section */
+    .work{
+        text-align: center;
+        padding: 0px 0px 30px 0px;
+    }
+
+    .t_section{
+        display: flex;
+        height: 300px;
+        width: auto;
+        padding: 30px;
+    }
+
+    .building{
+        padding: 0px 20px;
+    }
+    .building i{
+        font-size: 2rem;
+        margin: 0% 50%;
+        color: blue;
+    }
+
+    .building h1{
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    
+    .renovating{
+        padding: 0px 20px;
+    }
+    .renovating i{
+        font-size: 2rem;
+        margin: 0% 50%;
+        color: blue;
+    }
+
+    .renovating h1{
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    .estates{
+        padding: 0px 20px;
+    }
+    .estates i{
+        font-size: 2rem;
+        margin: 0% 50%;
+        color: blue;
+    }
+
+    .estates h1{
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    .consullation{
+        padding: 0px 20px;
+    }
+    .consullation i{
+        font-size: 2rem;
+        margin: 0% 50%;
+        color: blue;
+    }
+
+    .consullation h1{
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    /* footer part */
+
+
+    .footer{
+        height: 500px;
+        /* background-color: rgb(40, 13, 65); */
+        background-color: aqua;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .dedication{
+        /* border: 2px solid red; */
+        width: 500px;
+        height: 300px;        
+    }
+
+    .dedication p{
+        text-align: center;
+        padding: 90px 50px;
+        letter-spacing: 2px;
+        line-height: 1.5;
+    }
+
+    .touch{
+        /* border: 2px solid green; */
+        height: 300px;
+        width: 500px;
+       
+   
+    }
+
+    .touch h3{
+        text-align: center;
+        padding: 90px 0px 0px 0px ;
+        line-height: 2.8;
+    }
+
+    .touch p{
+        text-align: center;
+        padding: 0px 50px 0px 50px;
+        line-height: 1.5;
+    }
+
+
+    .contact{
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .contact h3{
+        padding: 0px 0px 30px 0px
+    }
+
+
+/* media query for width <=1279px */
+
+@media screen and (max-width: 1279px) {
+    .t_section{
+       display: block;
+       height: auto;
+        
+    }
+    .footer{
+        padding: 0px 10px;
+    }
+
+    .s_section{
+        /* display: block; */
+        position: relative;
+        top:10%;
+    }
+   
+
+    .award_description{
+        width: 100%;
+        height: auto;
+    }
+
+    .link a{
+        padding: 0px 10px;
+    }
+
+    .head_section{
+        padding: 0px 40px;
+    }
+}
+
+/* media query for width <=868px */
+
+@media screen and (max-width: 868px) {
+    .f_section {
+        display: inline-block;
+        
+    }
+
+    .f_section .co_founders img{
+        width: 100%;
+        height: 100%;   
+    }
+
+    .head_section{
+        padding: 0px 30px;
+    }
+    .link a{
+        padding: 0px 10px;
+    }
+}
+
+
+@media only screen and (max-width: 991px)  {
+    .head_section{
+        padding: 0px;
+        }
+    }
+
+    .bannet_card .main1_image {
+        width: 100%;
+        height: 80vh;
+    }
+
+    nav .link{
+        padding: 0px 0px 0px 50px;
+    }
+
+    .m_word h3{
+        font-size: 1.9rem;
+    }
+
+    @media only screen and (max-width: 724px)  {
+        .footer{
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        .footer .dedication{
+            width: 100%;
+            height: 100px;
+        }
+        .dedication p{
+            font-size: 1rem;
+            /* border: 2px solid red; */
+        }
+        .bannet_card .main1_image {
+            width: 100%;
+            height: 80vh;
+        }
+        
+        .touch{
+            /* border: 2px solid green; */
+            margin: 0px 0px;
+            width: 100%;
+            height: auto;
+        }
+
+        .touch h3,p{
+            font-size: 1rem;
+            
+        }
+
+        .contact{
+            /* border: 2px solid green; */
+            margin: 50px 0px;
+            width: 100%;
+            height: auto;
+        }
+
+        .s_section{
+            display: block;
+            
+
+
+        }
+
+        .m_word h3{
+            font-size: 1.8rem;
+        }
+
+       }
+    
+
+        @media screen and (max-width: 719px) {
+       
+        .m_word h3{
+            font-size: 1.5rem;
+        }
+        
+        .bannet_card .main1_image{
+            width: 100vw;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+       
+        .m_word h3{
+            font-size: 1.5rem;
+        }
+        
+        .bannet_card .main1_image{
+            width: 100vw;
+        }
+
+        nav .link .nav-link{
+            font-size: 0.8rem;
+        }
+
+        .logo h1{
+            font-size: 1.5rem;
+        }
+    }
